@@ -24,7 +24,7 @@ const Index = () => {
                 highlightColor: 0xef67dc,
                 midtoneColor: 0xca0800,
                 lowlightColor: 0xfcfcfc,
-                blurFactor: 0.45,
+                blurFactor: 0.5,
                 speed: 1.5,
                 zoom: 1.6,
             })
@@ -52,7 +52,7 @@ const Index = () => {
   return (
     <div
       ref={vantaRef}
-      className="min-h-screen flex flex-col items-center justify-center gap-6"
+      className="min-h-screen flex flex-col items-center justify-center gap-6 bg-pink-200"
     >
       {accepted ? (
         <>
